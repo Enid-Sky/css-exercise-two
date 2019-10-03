@@ -1,12 +1,46 @@
+
+
+
+/*Updated colors and added font-family*/
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFA068;
+  color: #1D1C1A;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
 }
+
+/*Added a place to update font information here */
+
+h1 {
+  font-size: 2.5em;
+  line-height: 3em;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+  /*updated link text properties and values*/
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link {color: #FFFFFF;}
+a:hover {color: #292A2C;}
+a:visited {color: #ED5B09;}
+a:active {color: #292A2C;}
+
+/*Opacity set to 0. Made nav background transparent for a cleaner look. Removed fixed position for easier readability of the article*/
 
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
-  position: fixed;
   width: 100%;
 }
 
@@ -14,12 +48,21 @@ nav {
   margin: 20px;
   width: 100px;
 }
-
 .large-pic {
   width: 100%;
 }
 
+
 .medium-pic {
+  width: 70%;
+}
+
+/*added figcaption font info and width to fit under the image better*/
+
+figcaption {
+  font-size: 0.7em;
+  font-style: italic;
+  line-height: 1.5em;
   width: 70%;
 }
 
@@ -42,8 +85,19 @@ li {
   padding: 30px;
 }
 
+/*added author font info, and updated weight and height for better legibility*/
+
+.author {
+  font-weight: bold;
+  line-height: 6em;
+}
+
 article {
   padding-top: 100px;
+}
+
+p {
+  line-height: 1.5em;
 }
 
 .container {
